@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Language Detector</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background: #f4f4f4;
+    }
+
+    form {
+      margin-bottom: 20px;
+    }
+
+    textarea {
+      width: 100%;
+      height: 100px;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+
+    .result {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Language Detector</h1>
+  <form method="POST">
+    <textarea name="text" placeholder="Enter text here..." required></textarea><br><br>
+    <button type="submit">Detect Language</button>
+  </form>
+  {% if prediction %}
+  <div class="result">{{ prediction }}</div>
+  {% endif %}
+</body>
+
+</html>
