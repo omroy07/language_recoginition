@@ -4,7 +4,13 @@ This repository contains a Jupyter Notebook that demonstrates the use of a langu
 
 ## 📁 File Overview
 
-- `language-model.ipynb`: The main notebook that includes all code and outputs for the language model pipeline.
+- `language-model.ipynb` – Jupyter notebook demonstrating the NLP model workflow.
+- `vectorization.pkl` – Saved vectorizer for transforming input text data.
+- `label_encoder.pkl` – Encoder used to convert class labels to numerical form.
+- `dataset.csv` – The dataset used for training and evaluating the language model.
+- `templates/index.html` – HTML template for the web application frontend.
+- `app.py` – Flask application script to serve the model via a web interface.
+
 
 ## 🚀 Features
 
