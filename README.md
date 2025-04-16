@@ -27,7 +27,6 @@ This repository contains a Jupyter Notebook that demonstrates the use of a langu
    ```bash
    git clone https://github.com/your-username/language-model-project.git
    cd language-model-project
-``
 2.Create a virtual environment (optional but recommended):
 ```bash
 python -m venv venv
