@@ -19,7 +19,7 @@ This repository contains a Jupyter Notebook that demonstrates the use of a langu
 - Model training and evaluation
 - Text generation or other NLP tasks
 
-## 🧰 Technologies Used
+## 🧰 Technologies Used 
 
 - Python 🐍
 - Jupyter Notebook 📓
