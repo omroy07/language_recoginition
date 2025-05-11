@@ -6,7 +6,7 @@ import spacy
 app = Flask(__name__)
 
 # Load spaCy multilingual model
-nlp = spacy.load("xx_ent_wiki_sm")
+nlp = spacy.load("xx_sent_ud_sm")
 
 # Load saved model, vectorizer, and label encoder
 with open("model.pkl", "rb") as f:
